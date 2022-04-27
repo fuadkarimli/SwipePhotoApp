@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         imageView.isUserInteractionEnabled = true
         
         
@@ -50,7 +51,7 @@ class ViewController: UIViewController {
        
         
         
-        if let swipeGesture = sender as? UISwipeGestureRecognizer{
+        if let swipeGesture = sender as? UISwipeGestureRecognizer {
             
             switch swipeGesture.direction{
                 
